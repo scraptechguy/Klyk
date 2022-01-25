@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		90774B7927A04AB4006F94B3 /* KlikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90774B7827A04AB4006F94B3 /* KlikApp.swift */; };
-		90774B7B27A04AB4006F94B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90774B7A27A04AB4006F94B3 /* ContentView.swift */; };
 		90774B7D27A04AB5006F94B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
 		90774B8027A04AB5006F94B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */; };
+		90E1795727A04BD600EBA377 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795627A04BD600EBA377 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90774B7527A04AB4006F94B3 /* Klik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90774B7827A04AB4006F94B3 /* KlikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlikApp.swift; sourceTree = "<group>"; };
-		90774B7A27A04AB4006F94B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90774B7C27A04AB5006F94B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90E1795627A04BD600EBA377 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				90774B7827A04AB4006F94B3 /* KlikApp.swift */,
-				90774B7A27A04AB4006F94B3 /* ContentView.swift */,
+				90E1795527A04BBA00EBA377 /* Views */,
+				90E1795427A04BB200EBA377 /* ViewModels */,
 				90774B7C27A04AB5006F94B3 /* Assets.xcassets */,
 				90774B7E27A04AB5006F94B3 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90E1795427A04BB200EBA377 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		90E1795527A04BBA00EBA377 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90E1795627A04BD600EBA377 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90774B7B27A04AB4006F94B3 /* ContentView.swift in Sources */,
 				90774B7927A04AB4006F94B3 /* KlikApp.swift in Sources */,
+				90E1795727A04BD600EBA377 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
