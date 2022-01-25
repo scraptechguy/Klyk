@@ -16,7 +16,13 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             Button(action: {
-                        model.count += 1
+                        if model.isLongPressing == true {
+                            model.isLongPressing.toggle()
+                        }
+                        
+                        else {
+                            model.count += 1
+                        }
                 
                         model.checkTextSize()
                     },
@@ -36,6 +42,11 @@ struct HomeView: View {
                             }
                         }
             }).ignoresSafeArea()
+                .simultaneousGesture(LongPressGesture(minimumDuration: 0.7).onEnded { _ in
+                    model.isLongPressing = true
+                    
+                    model.count = 0
+                })
         }
     }
 }

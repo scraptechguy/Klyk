@@ -20,6 +20,11 @@ class ContentModel: ObservableObject {
     @Published var fontClr = Color(red: 1, green: 1, blue: 1)
     
     
+    // STATE VARIABLES
+    
+    @Published var isLongPressing = false
+    
+    
     // VARIABLES
     
     @Published var count = 0
