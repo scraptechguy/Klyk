@@ -23,5 +23,15 @@ class ContentModel: ObservableObject {
     // VARIABLES
     
     @Published var count = 0
-    @Published var buttonSize:CGFloat = 3
+    @Published var textSize:CGFloat = 2 // the greater the number the smaller the text (division)
+    
+    func checkTextSize() {
+        if count > 99 {
+            textSize = 2.5
+        }
+        
+        if count > 999 {
+            textSize = 3.5
+        }
+    }
 }

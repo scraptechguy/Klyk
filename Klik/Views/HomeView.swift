@@ -15,7 +15,11 @@ struct HomeView: View {
     
     var body: some View {
         ZStack {
-            Button(action: {model.count += 1},
+            Button(action: {
+                        model.count += 1
+                
+                        model.checkTextSize()
+                    },
                    label: {
                         ZStack {
                             Rectangle()
@@ -23,7 +27,13 @@ struct HomeView: View {
                             
                             Text(String(model.count))
                                 .foregroundColor(model.fontClr)
-                                .font(.system(size: model.screenSize.width / model.buttonSize))
+                                .font(.system(size: model.screenSize.width / model.textSize))
+                            
+                            if model.count == 69 {
+                                Text("Nice!")
+                                    .foregroundColor(model.fontClr)
+                                    .padding([.top], model.screenSize.width)
+                            }
                         }
             }).ignoresSafeArea()
         }
