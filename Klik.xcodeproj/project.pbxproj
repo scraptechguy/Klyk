@@ -11,6 +11,7 @@
 		90774B7D27A04AB5006F94B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
 		90774B8027A04AB5006F94B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */; };
 		90E1795727A04BD600EBA377 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795627A04BD600EBA377 /* HomeView.swift */; };
+		90E1795927A04C5600EBA377 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		90774B7C27A04AB5006F94B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90E1795627A04BD600EBA377 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		90E1795827A04C5600EBA377 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		90E1795427A04BB200EBA377 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				90E1795827A04C5600EBA377 /* ContentModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				90774B7927A04AB4006F94B3 /* KlikApp.swift in Sources */,
 				90E1795727A04BD600EBA377 /* HomeView.swift in Sources */,
+				90E1795927A04C5600EBA377 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
