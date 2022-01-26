@@ -39,4 +39,13 @@ class ContentModel: ObservableObject {
             textSize = 3.5
         }
     }
+    
+    
+    // USER DEFAULTS
+    
+    @AppStorage("guideStatus") var guideShown: Bool = false
+    
+    func changeGuideStatus() {
+        guideShown = true
+    }
 }
