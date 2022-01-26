@@ -38,7 +38,7 @@ struct HomeView: View {
                             if model.count == 69 {
                                 Text("Nice!")
                                     .foregroundColor(model.fontClr)
-                                    .padding([.top], model.screenSize.width)
+                                    .padding([.top], model.screenSize.width / 1.4)
                             }
                         }
             }).ignoresSafeArea()
@@ -47,6 +47,7 @@ struct HomeView: View {
                     
                     model.count = 0
                 })
+                .preferredColorScheme(.dark)
         }
     }
 }
