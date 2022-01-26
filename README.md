@@ -1,4 +1,4 @@
 # Klik
 
-https://user-images.githubusercontent.com/75474651/151144058-d39b6329-0c45-4da5-971e-ff6d7638f4f0.mov
+https://user-images.githubusercontent.com/75474651/151144875-ae55be6c-2628-4962-aca2-d4583a9225cf.mov
 
