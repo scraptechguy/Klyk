@@ -25,27 +25,27 @@ class ContentModel: ObservableObject {
     @Published var isLongPressing = false
     
     
-    // VARIABLES
-    
-    @Published var count = 0
-    @Published var textSize:CGFloat = 2 // the greater the number the smaller the text (division)
-    
-    func checkTextSize() {
-        if count > 99 {
-            textSize = 2.5
-        }
-        
-        if count > 999 {
-            textSize = 3.5
-        }
-    }
-    
-    
     // USER DEFAULTS
     
+    @AppStorage("displayedNumber") var count:Int = 0
+    @AppStorage("fontSize") var textSize:Int = 1 // the greater the number the smaller the text (division)
     @AppStorage("guideStatus") var guideShown: Bool = false
     
     func changeGuideStatus() {
         guideShown = true
+    }
+    
+    func checkTextSize() {
+        if count < 100 {
+            textSize = 1
+        }
+        
+        if count > 99 {
+            textSize = 2
+        }
+        
+        if count > 999 {
+            textSize = 3
+        }
     }
 }

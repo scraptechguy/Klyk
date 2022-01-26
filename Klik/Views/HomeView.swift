@@ -33,7 +33,7 @@ struct HomeView: View {
                             
                             Text(String(model.count))
                                 .foregroundColor(model.fontClr)
-                                .font(.system(size: model.screenSize.width / model.textSize))
+                                .font(.system(size: model.screenSize.width / CGFloat(0.75 * CGFloat(model.textSize) + 1.16666667)))
                             
                             if model.count == 69 {
                                 Text("Nice!")
