@@ -42,7 +42,7 @@ struct HomeView: View {
                             }
                         }
             }).ignoresSafeArea()
-                .simultaneousGesture(LongPressGesture(minimumDuration: 0.7).onEnded { _ in
+                .simultaneousGesture(LongPressGesture(minimumDuration: 1).onEnded { _ in
                     model.isLongPressing = true
                     
                     model.count = 0
