@@ -16,7 +16,7 @@ class ContentModel: ObservableObject {
     
     // UI COLORS
     
-    @Published var bg = Color(red: 0.6016, green: 0.0234, blue: 0.4961)
+    @Published var bg = Color(red: 0.05, green: 0, blue: 0)
     @Published var fontClr = Color(red: 1, green: 1, blue: 1)
     
     
