@@ -47,5 +47,29 @@ class ContentModel: ObservableObject {
         if count > 999 {
             textSize = 3
         }
+        
+        if count > 9999 {
+            textSize = 4
+        }
+        
+        if count > 99999 {
+            textSize = 5
+        }
+        
+        if count > 999999 {
+            textSize = 6
+        }
+        
+        if count > 9999999 {
+            textSize = 7
+        }
+        
+        if count > 99999999 {
+            textSize = 8
+        }
+        
+        // if in count is just a 1 followed by 0 {
+        //      textSize = log(count)
+        // }
     }
 }
