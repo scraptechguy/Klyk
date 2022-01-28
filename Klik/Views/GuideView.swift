@@ -20,7 +20,7 @@ struct GuideView: View {
             Text("Tap to increase count, \nhold to reset")
                 .foregroundColor(model.fontClr)
                 .font(.system(size: model.screenSize.width / 12))
-                .padding([.bottom], model.screenSize.width / 0.8)
+                .padding([.bottom], model.screenSize.width / 0.9)
             
             Spacer()
             
@@ -29,7 +29,7 @@ struct GuideView: View {
                         ZStack {
                             Rectangle()
                                 .fill(model.fontClr)
-                                .frame(width: model.screenSize.width / 1.2, height: model.screenSize.width / 8)
+                                .frame(width: model.screenSize.width / 1.3, height: model.screenSize.width / 8)
                                 .cornerRadius(model.screenSize.width / 28)
                             
                             Text("Okay, bring it on!")
