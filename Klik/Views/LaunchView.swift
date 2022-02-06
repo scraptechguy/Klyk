@@ -12,12 +12,11 @@ struct LaunchView: View {
      
     @EnvironmentObject var model: ContentModel
     
-    
     var body: some View {
         ZStack {
             HomeView()
             
-            if model.guideShown == false {
+            if !model.guideShown {
                 GuideView()
             }
         }

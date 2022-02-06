@@ -12,7 +12,6 @@ struct HomeView: View {
      
     @EnvironmentObject var model: ContentModel
     
-    
     var body: some View {
         ZStack {
             Button(action: {
