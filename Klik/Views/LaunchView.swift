@@ -17,7 +17,9 @@ struct LaunchView: View {
             HomeView()
             
             if !model.guideShown {
+                
                 GuideView()
+                
             }
         }
     }

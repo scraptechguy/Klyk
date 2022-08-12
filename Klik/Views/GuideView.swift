@@ -14,7 +14,7 @@ struct GuideView: View {
     
     var body: some View {
         ZStack {
-            model.bg.opacity(0.5).ignoresSafeArea()
+            Color("Background").opacity(0.5).ignoresSafeArea()
                 .onTapGesture {
                     model.changeGuideStatus()
                 }
@@ -22,10 +22,11 @@ struct GuideView: View {
             VStack {
                 Spacer()
                 
-                Text("Tap to increase count, \nhold to reset")
-                    .foregroundColor(model.fontClr)
+                Text("Tap to increase count \nHold to reset")
+                    .foregroundColor(Color("Font"))
                     .font(.system(size: model.screenSize.width / 12))
                     .padding([.bottom], model.screenSize.width / 0.9)
+                    .multilineTextAlignment(.center)
                 
                 Spacer()
             }
