@@ -4,7 +4,7 @@
 
 ## Klik Status 
 
-Klik is currently NOT in active development
+Klik is currently NOT in active development and is waiting for App Store release
 
 ### Latest release on the App Store: 
 
