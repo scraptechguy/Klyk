@@ -14,4 +14,4 @@ Klik is currently NOT in active development and is waiting for App Store release
 
 ### Latest TestFlight release:
 
-Click <a href="">here</a> or use the Redeem Code: <b>bla bla bla</b>
+Click <a href="https://testflight.apple.com/join/Fy8H0PbT">here</a> or use the Redeem Code: <b>Not set, use link</b>
