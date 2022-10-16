@@ -24,7 +24,7 @@ struct HomeView: View {
                             model.count += 1
                             
                         }
-                
+                        
                         model.checkTextSize()
                     },
                    label: {

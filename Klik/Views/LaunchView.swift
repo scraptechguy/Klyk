@@ -15,6 +15,7 @@ struct LaunchView: View {
     var body: some View {
         ZStack {
             HomeView()
+                .onAppear(perform: model.checkTextSize)
             
             if !model.guideShown {
                 
