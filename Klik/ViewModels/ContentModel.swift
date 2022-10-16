@@ -21,66 +21,27 @@ class ContentModel: ObservableObject {
     @AppStorage("fontSize") var textSize: Int = 1 // the greater the number the smaller the text (division)
     @AppStorage("guideStatus") var guideShown: Bool = false
     
-    
+    // Check if the guide has been shown, if so, don't show it again
     func changeGuideStatus() {
         
         guideShown = true
         
     }
-    
+
+    // Adapt text size to the value of the number displayed
     func checkTextSize() {
-        
-        if count < 100 {
+
+        if count < 10 {
             
             textSize = 1
             
-        }
-        
-        if count > 99 {
+        } else {
             
-            textSize = 2
-            
-        }
-        
-        if count > 999 {
-            
-            textSize = 3
+            // Assign logarithm value of count (only if Int) to text size
+            textSize = Int(log(Double(count)) / log(10.0))
             
         }
         
-        if count > 9999 {
-            
-            textSize = 4
-            
-        }
-        
-        if count > 99999 {
-            
-            textSize = 5
-            
-        }
-        
-        if count > 999999 {
-            
-            textSize = 6
-            
-        }
-        
-        if count > 9999999 {
-            
-            textSize = 7
-            
-        }
-        
-        if count > 99999999 {
-            
-            textSize = 8
-            
-        }
-        
-        // if in count is just a 1 followed by 0 {
-        //      textSize = log(count)
-        // }
     }
     
 }
