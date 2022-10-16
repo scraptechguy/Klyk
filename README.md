@@ -1,6 +1,6 @@
 # Klik is a simple iOS app that helps you with counting things
 
-![KlikPreview](https://user-images.githubusercontent.com/75474651/157829057-183ffd20-d7ff-4697-bd8f-e57c22c59c0e.png)
+![KlykPreview](https://user-images.githubusercontent.com/75474651/196025706-6f7cafcc-acd5-4c1f-a9d5-18c359d35f31.png)
 
 ## Klik Status 
 
