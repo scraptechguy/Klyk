@@ -1,10 +1,8 @@
 # Klyk is a simple iOS app that helps you with counting things
 
+Klyk is currently in active development and is waiting for updates
+
 ![KlykPreview](https://user-images.githubusercontent.com/75474651/196025706-6f7cafcc-acd5-4c1f-a9d5-18c359d35f31.png)
-
-## Klyk Status 
-
-Klyk is currently NOT in active development and is waiting for App Store release
 
 ### Latest release on the App Store: 
 
