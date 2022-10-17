@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct LaunchView: View {
+    
     // Access data in ContentModel class
-     
     @EnvironmentObject var model: ContentModel
     
     var body: some View {
