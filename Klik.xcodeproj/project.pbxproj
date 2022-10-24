@@ -21,8 +21,10 @@
 		90BD4FC8290678CF00572442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD4FC7290678CF00572442 /* Assets.xcassets */; };
 		90BD4FCB290678CF00572442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD4FCA290678CF00572442 /* Preview Assets.xcassets */; };
 		90BD4FCF290678CF00572442 /* Klyk.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 90BD4FB4290678CD00572442 /* Klyk.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90BD4FDD29067FDF00572442 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
+		90BD4FDE290684A600572442 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
+		90BD4FDF2906E01F00572442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
 		90E1795727A04BD600EBA377 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795627A04BD600EBA377 /* HomeView.swift */; };
-		90E1795927A04C5600EBA377 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -315,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BD4FCB290678CF00572442 /* Preview Assets.xcassets in Resources */,
+				90BD4FDF2906E01F00572442 /* Assets.xcassets in Resources */,
 				90BD4FC8290678CF00572442 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,8 +332,8 @@
 				90774B7927A04AB4006F94B3 /* KlikApp.swift in Sources */,
 				90792E5727A0BC6700A791BD /* LaunchView.swift in Sources */,
 				90E1795727A04BD600EBA377 /* HomeView.swift in Sources */,
-				90E1795927A04C5600EBA377 /* ContentModel.swift in Sources */,
 				9037A9D627A17FB400D405B5 /* GuideView.swift in Sources */,
+				90BD4FDE290684A600572442 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BD4FC4290678CF00572442 /* KlikApp.swift in Sources */,
+				90BD4FDD29067FDF00572442 /* ContentModel.swift in Sources */,
 				90BD4FC2290678CF00572442 /* ContentView.swift in Sources */,
 				90BD4FC6290678CF00572442 /* ComplicationController.swift in Sources */,
 			);

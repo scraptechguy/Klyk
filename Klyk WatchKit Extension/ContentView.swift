@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // Access data in ContentModel class
+    @EnvironmentObject var model: ContentModel
+    
     var body: some View {
         Text("Hello, World!")
             .padding()
@@ -17,5 +21,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ContentModel())
     }
 }

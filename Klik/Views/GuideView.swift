@@ -12,6 +12,8 @@ struct GuideView: View {
     // Access data in ContentModel class
     @EnvironmentObject var model: ContentModel
     
+    let screenSize: CGRect = UIScreen.main.bounds
+    
     var body: some View {
         ZStack {
             Color("Background").opacity(0.5).ignoresSafeArea()
@@ -24,8 +26,8 @@ struct GuideView: View {
                 
                 Text("Tap to increase count \nHold to reset")
                     .foregroundColor(Color("Font"))
-                    .font(.system(size: model.screenSize.width / 12))
-                    .padding([.bottom], model.screenSize.width / 0.9)
+                    .font(.system(size: screenSize.width / 12))
+                    .padding([.bottom], screenSize.width / 0.9)
                     .multilineTextAlignment(.center)
                 
                 Spacer()

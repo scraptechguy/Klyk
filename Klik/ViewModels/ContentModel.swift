@@ -10,9 +10,6 @@ import SwiftUI
 
 class ContentModel: ObservableObject {
     
-    // Screen size bounds
-    let screenSize: CGRect = UIScreen.main.bounds
-    
     // State variables
     @Published var isLongPressing = false
     

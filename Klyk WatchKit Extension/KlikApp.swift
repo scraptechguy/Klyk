@@ -13,6 +13,7 @@ struct KlikApp: App {
         WindowGroup {
             NavigationView {
                 ContentView()
+                    .environmentObject(ContentModel())
             }
         }
     }

@@ -12,6 +12,8 @@ struct HomeView: View {
     // Access data in ContentModel class
     @EnvironmentObject var model: ContentModel
     
+    let screenSize: CGRect = UIScreen.main.bounds
+    
     var body: some View {
         ZStack {
             Button(action: {
@@ -34,13 +36,13 @@ struct HomeView: View {
                             
                             Text(String(model.count))
                                 .foregroundColor(Color("Font"))
-                                .font(.system(size: model.screenSize.width / CGFloat(0.75 * CGFloat(model.textSize) + 1.16666667)))
+                                .font(.system(size: screenSize.width / CGFloat(0.75 * CGFloat(model.textSize) + 1.16666667)))
                             
                             if model.count == 69 {
                                 
                                 Text("Nice!")
                                     .foregroundColor(Color("Font"))
-                                    .padding([.top], model.screenSize.width / 1.4)
+                                    .padding([.top], screenSize.width / 1.4)
                                 
                             }
                         }
