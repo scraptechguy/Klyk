@@ -10,6 +10,7 @@
 		9037A9D627A17FB400D405B5 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9037A9D527A17FB400D405B5 /* GuideView.swift */; };
 		90398AAD27DB3E0100A8FB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90398AAC27DB3E0100A8FB29 /* LaunchScreen.storyboard */; };
 		905F706C2909608700C62892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
+		905F706F29098BEA00C62892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
 		90774B7927A04AB4006F94B3 /* KlikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90774B7827A04AB4006F94B3 /* KlikApp.swift */; };
 		90774B7D27A04AB5006F94B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
 		90774B8027A04AB5006F94B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */; };
@@ -24,7 +25,6 @@
 		90BD4FCF290678CF00572442 /* Klyk.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 90BD4FB4290678CD00572442 /* Klyk.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		90BD4FDD29067FDF00572442 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
 		90BD4FDE290684A600572442 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
-		90BD4FDF2906E01F00572442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
 		90E1795727A04BD600EBA377 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795627A04BD600EBA377 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -323,7 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BD4FCB290678CF00572442 /* Preview Assets.xcassets in Resources */,
-				90BD4FDF2906E01F00572442 /* Assets.xcassets in Resources */,
+				905F706F29098BEA00C62892 /* Assets.xcassets in Resources */,
 				90BD4FC8290678CF00572442 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,13 +421,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Debug;
 		};
@@ -476,13 +477,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
 		};
@@ -492,7 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "Klik/Preview\\ Content";
 				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
 				ENABLE_PREVIEWS = YES;
@@ -509,7 +511,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.klik;
 				PRODUCT_NAME = Klyk;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -524,7 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "Klik/Preview\\ Content";
 				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
 				ENABLE_PREVIEWS = YES;
@@ -541,7 +543,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.klik;
 				PRODUCT_NAME = Klyk;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -556,9 +558,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Klyk_WatchKit_Extension;
@@ -566,7 +568,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Klyk;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.klik;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.klik.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -584,9 +586,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Klyk_WatchKit_Extension;
@@ -594,7 +596,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Klyk;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.klik;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.klik.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -611,7 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Klyk WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
 				ENABLE_PREVIEWS = YES;
@@ -626,7 +628,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.klik.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -643,7 +645,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Klyk WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
 				ENABLE_PREVIEWS = YES;
@@ -658,7 +660,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.klik.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
