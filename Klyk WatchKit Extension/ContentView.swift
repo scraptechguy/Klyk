@@ -1,21 +1,19 @@
 //
-//  HomeView.swift
-//  Klik
+//  ContentView.swift
+//  Klyk WatchKit Extension
 //
-//  Created by Rostislav Brož on 1/25/22.
+//  Created by Rostislav Brož on 10/24/22.
 //
 
 import SwiftUI
 
-struct HomeView: View {
+struct ContentView: View {
     
     // Access data in ContentModel class
     @EnvironmentObject var model: ContentModel
     
-    let screenSize: CGRect = UIScreen.main.bounds
-    
     var body: some View {
-        ZStack {
+        VStack {
             Button(action: {
                         if model.isLongPressing {
                             
@@ -36,30 +34,21 @@ struct HomeView: View {
                             
                             Text(String(model.count))
                                 .foregroundColor(Color("Font"))
-                                .font(.system(size: screenSize.width / CGFloat(0.75 * CGFloat(model.textSize) + 1.16666667)))
-                            
-                            if model.count == 69 {
-                                
-                                Text("Nice!")
-                                    .foregroundColor(Color("Font"))
-                                    .padding([.top], screenSize.width / 1.4)
-                                
-                            }
-                        }
-            }).ignoresSafeArea()
-                .simultaneousGesture(LongPressGesture(minimumDuration: 1).onEnded { _ in
+                                .font(.system(size: 200 / CGFloat(0.75 * CGFloat(model.textSize) + 1.16666667)))
+                        }.frame(width: 500, height: 500)
+            }).simultaneousGesture(LongPressGesture(minimumDuration: 1).onEnded { _ in
                     model.isLongPressing = true
                     
                     model.count = 0
                 })
-                .preferredColorScheme(.dark)
+            .preferredColorScheme(.dark)
         }
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        ContentView()
             .environmentObject(ContentModel())
     }
 }

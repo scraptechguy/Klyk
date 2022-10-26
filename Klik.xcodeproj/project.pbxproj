@@ -9,28 +9,99 @@
 /* Begin PBXBuildFile section */
 		9037A9D627A17FB400D405B5 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9037A9D527A17FB400D405B5 /* GuideView.swift */; };
 		90398AAD27DB3E0100A8FB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90398AAC27DB3E0100A8FB29 /* LaunchScreen.storyboard */; };
+		905F706C2909608700C62892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
+		905F706F29098BEA00C62892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
 		90774B7927A04AB4006F94B3 /* KlikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90774B7827A04AB4006F94B3 /* KlikApp.swift */; };
 		90774B7D27A04AB5006F94B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7C27A04AB5006F94B3 /* Assets.xcassets */; };
 		90774B8027A04AB5006F94B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */; };
 		90792E5727A0BC6700A791BD /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90792E5627A0BC6700A791BD /* LaunchView.swift */; };
+		90BD4FB7290678CF00572442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD4FB6290678CF00572442 /* Assets.xcassets */; };
+		90BD4FBD290678CF00572442 /* Klyk WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 90BD4FBC290678CF00572442 /* Klyk WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90BD4FC2290678CF00572442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4FC1290678CF00572442 /* ContentView.swift */; };
+		90BD4FC4290678CF00572442 /* KlikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4FC3290678CF00572442 /* KlikApp.swift */; };
+		90BD4FC6290678CF00572442 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD4FC5290678CF00572442 /* ComplicationController.swift */; };
+		90BD4FC8290678CF00572442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD4FC7290678CF00572442 /* Assets.xcassets */; };
+		90BD4FCB290678CF00572442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD4FCA290678CF00572442 /* Preview Assets.xcassets */; };
+		90BD4FCF290678CF00572442 /* Klyk.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 90BD4FB4290678CD00572442 /* Klyk.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90BD4FDD29067FDF00572442 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
+		90BD4FDE290684A600572442 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
 		90E1795727A04BD600EBA377 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795627A04BD600EBA377 /* HomeView.swift */; };
-		90E1795927A04C5600EBA377 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1795827A04C5600EBA377 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90BD4FBE290678CF00572442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90774B6D27A04AB4006F94B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90BD4FBB290678CF00572442;
+			remoteInfo = "Klyk WatchKit Extension";
+		};
+		90BD4FCD290678CF00572442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90774B6D27A04AB4006F94B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90BD4FB3290678CD00572442;
+			remoteInfo = Klyk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90BD4FD0290678CF00572442 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				90BD4FCF290678CF00572442 /* Klyk.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD4FD3290678CF00572442 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				90BD4FBD290678CF00572442 /* Klyk WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9037A9D527A17FB400D405B5 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 		90398AAC27DB3E0100A8FB29 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905F70682909486400C62892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		905F706A29095C4C00C62892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		90774B7527A04AB4006F94B3 /* Klyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90774B7827A04AB4006F94B3 /* KlikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlikApp.swift; sourceTree = "<group>"; };
 		90774B7C27A04AB5006F94B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90792E5627A0BC6700A791BD /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		90BD4FB4290678CD00572442 /* Klyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BD4FB6290678CF00572442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90BD4FBC290678CF00572442 /* Klyk WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Klyk WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BD4FC1290678CF00572442 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90BD4FC3290678CF00572442 /* KlikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlikApp.swift; sourceTree = "<group>"; };
+		90BD4FC5290678CF00572442 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		90BD4FC7290678CF00572442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90BD4FCA290678CF00572442 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90BD4FCC290678CF00572442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90E1795627A04BD600EBA377 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		90E1795827A04C5600EBA377 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		90774B7227A04AB4006F94B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD4FB9290678CF00572442 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				90774B7727A04AB4006F94B3 /* Klik */,
+				90BD4FB5290678CD00572442 /* Klyk */,
+				90BD4FC0290678CF00572442 /* Klyk WatchKit Extension */,
 				90774B7627A04AB4006F94B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				90774B7527A04AB4006F94B3 /* Klyk.app */,
+				90BD4FB4290678CD00572442 /* Klyk.app */,
+				90BD4FBC290678CF00572442 /* Klyk WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +134,7 @@
 		90774B7727A04AB4006F94B3 /* Klik */ = {
 			isa = PBXGroup;
 			children = (
+				905F70682909486400C62892 /* Info.plist */,
 				90774B7827A04AB4006F94B3 /* KlikApp.swift */,
 				90E1795527A04BBA00EBA377 /* Views */,
 				90E1795427A04BB200EBA377 /* ViewModels */,
@@ -72,6 +148,36 @@
 			isa = PBXGroup;
 			children = (
 				90774B7F27A04AB5006F94B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90BD4FB5290678CD00572442 /* Klyk */ = {
+			isa = PBXGroup;
+			children = (
+				905F706A29095C4C00C62892 /* Info.plist */,
+				90BD4FB6290678CF00572442 /* Assets.xcassets */,
+			);
+			path = Klyk;
+			sourceTree = "<group>";
+		};
+		90BD4FC0290678CF00572442 /* Klyk WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90BD4FC1290678CF00572442 /* ContentView.swift */,
+				90BD4FC3290678CF00572442 /* KlikApp.swift */,
+				90BD4FC5290678CF00572442 /* ComplicationController.swift */,
+				90BD4FC7290678CF00572442 /* Assets.xcassets */,
+				90BD4FCC290678CF00572442 /* Info.plist */,
+				90BD4FC9290678CF00572442 /* Preview Content */,
+			);
+			path = "Klyk WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		90BD4FC9290678CF00572442 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90BD4FCA290678CF00572442 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -105,15 +211,51 @@
 				90774B7127A04AB4006F94B3 /* Sources */,
 				90774B7227A04AB4006F94B3 /* Frameworks */,
 				90774B7327A04AB4006F94B3 /* Resources */,
+				90BD4FD0290678CF00572442 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				90BD4FCE290678CF00572442 /* PBXTargetDependency */,
 			);
 			name = Klik;
 			productName = Klik;
 			productReference = 90774B7527A04AB4006F94B3 /* Klyk.app */;
 			productType = "com.apple.product-type.application";
+		};
+		90BD4FB3290678CD00572442 /* Klyk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BD4FD7290678CF00572442 /* Build configuration list for PBXNativeTarget "Klyk" */;
+			buildPhases = (
+				90BD4FB2290678CD00572442 /* Resources */,
+				90BD4FD3290678CF00572442 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90BD4FBF290678CF00572442 /* PBXTargetDependency */,
+			);
+			name = Klyk;
+			productName = Klyk;
+			productReference = 90BD4FB4290678CD00572442 /* Klyk.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		90BD4FBB290678CF00572442 /* Klyk WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BD4FD6290678CF00572442 /* Build configuration list for PBXNativeTarget "Klyk WatchKit Extension" */;
+			buildPhases = (
+				90BD4FB8290678CF00572442 /* Sources */,
+				90BD4FB9290678CF00572442 /* Frameworks */,
+				90BD4FBA290678CF00572442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Klyk WatchKit Extension";
+			productName = "Klyk WatchKit Extension";
+			productReference = 90BD4FBC290678CF00572442 /* Klyk WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -122,11 +264,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					90774B7427A04AB4006F94B3 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					90BD4FB3290678CD00572442 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					90BD4FBB290678CF00572442 = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
@@ -144,6 +292,8 @@
 			projectRoot = "";
 			targets = (
 				90774B7427A04AB4006F94B3 /* Klik */,
+				90BD4FB3290678CD00572442 /* Klyk */,
+				90BD4FBB290678CF00572442 /* Klyk WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +309,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90BD4FB2290678CD00572442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905F706C2909608700C62892 /* Assets.xcassets in Resources */,
+				90BD4FB7290678CF00572442 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD4FBA290678CF00572442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD4FCB290678CF00572442 /* Preview Assets.xcassets in Resources */,
+				905F706F29098BEA00C62892 /* Assets.xcassets in Resources */,
+				90BD4FC8290678CF00572442 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -169,12 +338,36 @@
 				90774B7927A04AB4006F94B3 /* KlikApp.swift in Sources */,
 				90792E5727A0BC6700A791BD /* LaunchView.swift in Sources */,
 				90E1795727A04BD600EBA377 /* HomeView.swift in Sources */,
-				90E1795927A04C5600EBA377 /* ContentModel.swift in Sources */,
 				9037A9D627A17FB400D405B5 /* GuideView.swift in Sources */,
+				90BD4FDE290684A600572442 /* ContentModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD4FB8290678CF00572442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD4FC4290678CF00572442 /* KlikApp.swift in Sources */,
+				90BD4FDD29067FDF00572442 /* ContentModel.swift in Sources */,
+				90BD4FC2290678CF00572442 /* ContentView.swift in Sources */,
+				90BD4FC6290678CF00572442 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90BD4FBF290678CF00572442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90BD4FBB290678CF00572442 /* Klyk WatchKit Extension */;
+			targetProxy = 90BD4FBE290678CF00572442 /* PBXContainerItemProxy */;
+		};
+		90BD4FCE290678CF00572442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90BD4FB3290678CD00572442 /* Klyk */;
+			targetProxy = 90BD4FCD290678CF00572442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		90774B8127A04AB5006F94B3 /* Debug */ = {
@@ -228,13 +421,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Debug;
 		};
@@ -283,13 +477,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
 		};
@@ -299,11 +494,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"Klik/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "Klik/Preview\\ Content";
 				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Klik/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,7 +511,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.klik;
 				PRODUCT_NAME = Klyk;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -330,11 +526,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"Klik/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "Klik/Preview\\ Content";
 				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Klik/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -346,12 +543,132 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.klik;
 				PRODUCT_NAME = Klyk;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90BD4FD1290678CF00572442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Klyk_WatchKit_Extension;
+				INFOPLIST_FILE = Klyk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Klyk;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.klik;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.klik.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		90BD4FD2290678CF00572442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Klyk_WatchKit_Extension;
+				INFOPLIST_FILE = Klyk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Klyk;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.klik;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.klik.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		90BD4FD4290678CF00572442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"Klyk WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Klyk WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Klyk WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Klyk_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.klik.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		90BD4FD5290678CF00572442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"Klyk WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = NH6Z2BQ4LC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Klyk WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Klyk WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Klyk_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.klik.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
 		};
@@ -372,6 +689,24 @@
 			buildConfigurations = (
 				90774B8427A04AB5006F94B3 /* Debug */,
 				90774B8527A04AB5006F94B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BD4FD6290678CF00572442 /* Build configuration list for PBXNativeTarget "Klyk WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BD4FD4290678CF00572442 /* Debug */,
+				90BD4FD5290678CF00572442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BD4FD7290678CF00572442 /* Build configuration list for PBXNativeTarget "Klyk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BD4FD1290678CF00572442 /* Debug */,
+				90BD4FD2290678CF00572442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
