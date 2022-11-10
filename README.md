@@ -4,11 +4,11 @@ Klyk is currently in active development and is waiting for updates
 
 <div align="center">
   <b>Highest count ever reached</b>: 7️⃣7️⃣7️⃣7️⃣
+  
+  by <a href="https://github.com/filiptronicek">@filiptronicek</a>
 
   ![KlykPreview](https://user-images.githubusercontent.com/75474651/196025706-6f7cafcc-acd5-4c1f-a9d5-18c359d35f31.png)
 </div>
-
-  by @filiptronicek
 
 ### Latest release on the App Store: 
 
