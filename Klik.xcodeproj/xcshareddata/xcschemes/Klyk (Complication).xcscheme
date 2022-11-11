@@ -55,10 +55,8 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "32">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/Klyk">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90BD4FB3290678CD00572442"
@@ -66,7 +64,7 @@
             BlueprintName = "Klyk"
             ReferencedContainer = "container:Klik.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,10 +73,8 @@
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "32">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/Klyk">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90BD4FB3290678CD00572442"
@@ -86,16 +82,7 @@
             BlueprintName = "Klyk"
             ReferencedContainer = "container:Klik.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90BD4FB3290678CD00572442"
-            BuildableName = "Klyk.app"
-            BlueprintName = "Klyk"
-            ReferencedContainer = "container:Klik.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
