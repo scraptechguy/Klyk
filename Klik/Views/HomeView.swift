@@ -17,19 +17,20 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             Button(action: {
-                        if model.isLongPressing {
+                        withAnimation(.none) {
+                            if model.isLongPressing {
+                                
+                                model.isLongPressing.toggle()
+                                
+                            } else {
+                                
+                                model.count += 1
+                                
+                            }
                             
-                            model.isLongPressing.toggle()
-                            
-                        } else {
-                            
-                            model.count += 1
-                            
+                            model.checkTextSize()
                         }
-                        
-                        model.checkTextSize()
-                    },
-                   label: {
+                    }, label: {
                         ZStack {
                             Rectangle()
                                 .fill(Color("Background"))
