@@ -1,4 +1,4 @@
-# Klyk is a simple iOS app that helps you with counting things
+# Klyk is an iOS and WatchOS app that helps you with counting things
 
 Klyk is currently in active development and is waiting for updates
 
