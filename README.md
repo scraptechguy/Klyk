@@ -1,6 +1,21 @@
-# Klyk is an iOS and WatchOS app that helps you with counting things
+# Klyk helps you with counting things. Tap to increase count, hold to reset!
 
-Klyk is currently in active development and is waiting for updates
+Klyk is an open source project made to help me count jumping rope jumps, but you can use it for bunch of other stuff! 
+
+<div align="center">
+  <a href="https://github.com/scraptechguy/Klyk/actions">
+    <img src="https://github.com/scraptechguy/Klyk/actions/workflows/ios.yml/badge.svg">
+  </a>
+  <a href="https://github.com/scraptechguy/Klyk/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/scraptechguy/Klyk">
+  </a>
+  <a href="https://github.com/scraptechguy/Klyk/issues">
+    <img src="https://img.shields.io/github/issues/scraptechguy/Klyk">
+  </a>
+  <a href="https://github.com/scraptechguy/Klyk/pulls">
+    <img src="https://img.shields.io/github/issues-pr/scraptechguy/Klyk">
+  </a>
+</div>
 
 <div align="center">
   <b>Highest count ever reached</b>: 1️⃣0️⃣6️⃣0️⃣0️⃣
